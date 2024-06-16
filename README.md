@@ -1,6 +1,6 @@
 ### README.md
 
-![Demo](https://s12.gifyu.com/images/SYJVE.gif)
+![Demo](./demo.gif)
 
 # Projet de Visualisation LiDAR 🌍
 

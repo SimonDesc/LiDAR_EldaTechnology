@@ -1,0 +1,20 @@
+{
+	"pipeline": [
+	  {
+		"type": "readers.las",
+		"filename": "C:/Users/33669/Desktop/Elda/example_LiDAR/LHD_FXX_0561_6282_PTS_C_LAMB93_IGN69.copc.laz"
+	},
+	  {
+		"type": "filters.decimation",
+		"step": 10
+	  },
+	  {
+		"type": "writers.pgpointcloud",
+		"connection": "host='localhost' port='5433' dbname='elda_tech' user='postgres' password='0000'",
+		"table": "lidar_data",
+		"schema": "public",
+		"srid": 4326
+	  }
+	]
+  }
+  

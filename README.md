@@ -1,9 +1,6 @@
 ### README.md
 
-
 ![Demo](https://i.imgur.com/wJY65w2.gif)
-
-
 
 # Projet de Visualisation LiDAR 🌍
 
